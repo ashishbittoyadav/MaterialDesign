@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#124B45</color>
+    <color name="colorPrimaryDark">#33B3A3</color>
+    <color name="colorAccent">#F44336</color>
+
+    <!--custom color of the text and background of toolbar-->
+    <color name="contextualbackgroundcolor">#F3D20B</color>
+    <color name="contextualtextcolor">#F10A0A</color>
+</resources>

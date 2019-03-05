@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AccessCamera</string>
+    <string name="stand_alone_toolbar">Standalone tool bar!</string>
+    <string name="subtitle">this is subtitle</string>
+    <string name="save_the_content">save the content</string>
+    <string name="read_content">read content</string>
+    <string name="delete_the_content">delete the content</string>
+    <string name="update_system">update system</string>
+    <string name="setting">setting</string>
+    <string name="action_tool_bar">action tool bar</string>
+    <string name="contextualmenu">contextualMenu</string>
+</resources>

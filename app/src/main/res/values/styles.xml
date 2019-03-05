@@ -1,0 +1,35 @@
+<resources>
+
+
+    <style name="AppMaterialTheme" parent="SuperMaterialTheme">
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--To overlap the contextual sub menu to the existing menu toolbar-->
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="colorControlHighlight">#FD0E0E</item>
+        <item name="colorButtonNormal">#1CDA24</item>
+        <item name="colorControlActivated">#2196F3</item>
+        <item name="actionModeStyle">@style/MyActionMode</item>
+    </style>
+
+    <!--my custom action mode which extends the ActionMode class and override the color of toolbar and title-->
+    <!--............................................................................-->
+    <style name="MyActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/contextualbackgroundcolor</item>
+        <item name="titleTextStyle">@style/Mytextstyle</item>
+    </style>
+    <style name="Mytextstyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/contextualtextcolor</item>
+    </style>
+    <!--................................................................................-->
+
+</resources>
